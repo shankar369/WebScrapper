@@ -21,7 +21,7 @@ csv_writer = csv.writer(csv_file)
 
 headers = set()
 
-for i in range(1,101):
+for i in range(30,50):
     page = "https://archive.india.gov.in/govt/loksabhampbiodata.php?mpcode="+str(i)
 
 
@@ -64,7 +64,7 @@ print(headers)
 
 count = 0
 
-for i in range(1,101):
+for i in range(30,50):
     print(i)
     page = "https://archive.india.gov.in/govt/loksabhampbiodata.php?mpcode="+str(i)
 
